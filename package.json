@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "yadimr",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "curl-request": "^1.1.1",
+    "hapi": "^18.1.0",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.0",
+    "xml-js": "^1.6.11",
+    "xml2js": "^0.4.22"
+  }
+}
